@@ -1,3 +1,12 @@
+nghttp2 (1.43.0-1ubuntu0.1) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: HTTP/2 protocol denial of service
+    - debian/patches/CVE-2023-44487.patch: implement stream reset rate
+      limiting.
+    - CVE-2023-44487
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Wed, 11 Oct 2023 13:50:35 -0400
+
 nghttp2 (1.43.0-1build3) jammy; urgency=high
 
   * No change rebuild for ppc64el baseline bump.
